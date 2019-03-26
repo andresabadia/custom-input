@@ -1,28 +1,39 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img src="./assets/logo.png">
+    <h1>{{ msg }}</h1> 
+    <form>
+      <idex-input label="Name" type="text"></idex-input>
+      <idex-input label="e-Mail" type="email" :width="400"></idex-input>    
+      <idex-input label="Nachricht" type="message" :height="200" :width="300"></idex-input>
+      <idex-input label="Tooltip" type="text" :invalidClass="true">Tooltip text</idex-input>
+      <idex-input type="button">Send</idex-input>
+    </form>    
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Input from './components/Input.vue'
 export default {
   name: 'app',
-  components: {
-    HelloWorld
+  data () {
+    return {
+      msg: 'Custom Input'
+    }
+  },
+  components:{
+    idexInput: Input
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  font-weight: 900;
 }
 </style>
