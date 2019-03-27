@@ -23,4 +23,4 @@ npm run test
 ```
 
 ## Browser compatibility
-This Web component uses the `define()` method of the `CustomElementRegistry` interface to define the web component. The compatibility of this method is shown [here](https://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry/define#Browser_compatibility).
+This Web component uses the `define()` method of the `CustomElementRegistry` interface to define the web component. The compatibility of this method is shown [here](https://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry/define#Browser_compatibility "MND web docs").
