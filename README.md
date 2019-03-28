@@ -12,14 +12,25 @@ Include the idex-custom-input script. Download the script from [here](https://de
 <script src="./idex-custom-input.js"></script>
 ```
 
-### Compiles and minifies for production
+## Using the Web Compnent
+### Add custom Tag
 ```
-npm run build
+<idex-custom-input></idex-custom-input>
 ```
 
-### Run your tests
+### Add attributes
+* type
+...* text
+...* email
+...* password
+...* number
+...* button
+...* message
+* label
+* height
+* width
 ```
-npm run test
+<idex-custom-input type="text" label="label" width="500"></idex-custom-input>
 ```
 
 ## Browser compatibility
