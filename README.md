@@ -20,12 +20,12 @@ Include the idex-custom-input script. Download the script from [here](https://de
 
 ### Add attributes
 * type
-...* text
-...* email
-...* password
-...* number
-...* button
-...* message
+    * text
+    * email
+    * password
+    * number
+    * button
+    * message
 * label
 * height
 * width
