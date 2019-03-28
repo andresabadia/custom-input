@@ -1,5 +1,5 @@
 # custom-input
-
+Custom input Tag with svg animation and label and placeholder animation.
 ## Web Component setup
 ### Add dependencies
 Add the Vue.js library to the HTML file.
