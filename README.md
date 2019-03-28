@@ -7,7 +7,7 @@ Add the Vue.js library to the HTML file.
 <script src="https://unpkg.com/vue"></script>
 ```
 
-Include the idex-custom-input script. Download the script from [here](https://www.id-ex.de/examples/custom-input/idex-custom-input.min.js).
+Include the idex-custom-input script. Download the script from [here](https://www.id-ex.de/examples/custom-input/idex-custom-input.js).
 ```
 <script src="./idex-custom-input.js"></script>
 ```
